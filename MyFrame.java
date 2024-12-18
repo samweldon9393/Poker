@@ -8,8 +8,7 @@ public class MyFrame extends JFrame{
         /* frame settings */
         this.setTitle("Video Poker");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setSize(1500, 1000);
-        this.setVisible(true);
+        this.setSize(1400, 1000);
 
         /* add little icon to frame */
         //TODO doenst work :(
@@ -18,5 +17,6 @@ public class MyFrame extends JFrame{
 
         /* set background color */
         this.getContentPane().setBackground(new Color(0x4a0204));
+        this.setVisible(true);
     }
 }
